@@ -46,6 +46,10 @@ TEST_ENV=production npx playwright test --project=Firefox --headed
 
 TEST_ENV=production npx playwright test --project=WebKit --headed
 
+#RUN TESTS IN WINDOWS
+
+Set TEST_ENV=production npx playwright test --project=Chromium
+
 ```
 
 
