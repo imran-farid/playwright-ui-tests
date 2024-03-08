@@ -1,4 +1,3 @@
-// playwright.config.js
 module.exports = {
     testDir: './tests', // Directory where your tests are located
     /* Use to specify browsers you want to run tests in */
@@ -20,7 +19,5 @@ module.exports = {
       ['html', { outputFolder: 'playwright-report' }], // For HTML report
       ['json', { outputFile: 'reports/test-results.json' }] // For JSON report, specifying the output path
     ],
-    //reporter: [['html'], ['json']],
-    // Add other global configuration options here
   };
   
