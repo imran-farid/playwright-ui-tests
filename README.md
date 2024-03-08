@@ -15,13 +15,20 @@ ui test automation assessment using Playwright + Java Script
 #INSTALL ALL DEPENDENCIES,
 npm install
 
-#RUN TESTS from pre-defined script
+```
 
+## Run Tests from pre-defined scripts
+ ```
 npm run test-production-safari
 
 npm run test-production-firefox
 
 npm run test-production-chromium
+
+```
+
+# Run Tests by passing manual arugments
+ ```
 
 #RUN TESTS(HEADLESS MODE, TEST_ENV = development, staging, production )
 
@@ -39,9 +46,14 @@ TEST_ENV=production npx playwright test --project=Firefox --headed
 
 TEST_ENV=production npx playwright test --project=WebKit --headed
 
+```
+
+
+# Generate html report
+ ```
 #OPEN html Report
 npx playwright show-report
-
-
 ```
+
+
 
