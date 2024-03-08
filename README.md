@@ -1,5 +1,5 @@
 # playwright-ui-tests
-ui test automation assessment using Playwright + Java Script
+ui test automation using Playwright + Java Script
 
 ## Pre requesite
  ```

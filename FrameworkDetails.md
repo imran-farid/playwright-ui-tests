@@ -23,3 +23,5 @@ As the test suite expands, this setup facilitates easier navigation, management,
 # playwright.config.js
  
  Leveraging playwright.config.js for browser configurations and reporting centralizes Playwright settings, which aids in facilitating cross-browser testing efficiently.
+
+ Html report will be generated in 'playwright-report' folder and JSON report under 'reports' folder.
