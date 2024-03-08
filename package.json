@@ -1,0 +1,26 @@
+{
+  "name": "playwright-ui-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-production-chromium": "TEST_ENV=production npx playwright test --project=Chromium && npx playwright show-report",
+    "test-production-firefox": "TEST_ENV=production npx playwright test --project=Firefox && npx playwright show-report",
+    "test-production-safari": "TEST_ENV=production npx playwright test --project=WebKit && npx playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imran-farid/playwright-ui-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imran-farid/playwright-ui-tests/issues"
+  },
+  "homepage": "https://github.com/imran-farid/playwright-ui-tests#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.42.1",
+    "playwright": "^1.42.1"
+  }
+}
